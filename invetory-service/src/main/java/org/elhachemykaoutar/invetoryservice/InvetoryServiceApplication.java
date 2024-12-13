@@ -26,7 +26,18 @@ public class InvetoryServiceApplication {
                     List.of(
                             Product.builder().name("Computer").quantity(12).price(1200).build(),
                             Product.builder().name("Printer").quantity(32).price(120).build(),
-                            Product.builder().name("Smartphone").quantity(31).price(900).build()
+                            Product.builder().name("Smartphone").quantity(31).price(900).build(),
+                            Product.builder().name("Tablet").quantity(25).price(500).build(),
+                            Product.builder().name("Headphones").quantity(50).price(80).build(),
+                            Product.builder().name("Keyboard").quantity(40).price(45).build(),
+                            Product.builder().name("Mouse").quantity(60).price(25).build(),
+                            Product.builder().name("Monitor").quantity(20).price(300).build(),
+                            Product.builder().name("Laptop").quantity(15).price(1500).build(),
+                            Product.builder().name("Webcam").quantity(35).price(60).build(),
+                            Product.builder().name("External Hard Drive").quantity(22).price(150).build(),
+                            Product.builder().name("Graphics Card").quantity(10).price(500).build(),
+                            Product.builder().name("Router").quantity(18).price(100).build(),
+                            Product.builder().name("Speakers").quantity(27).price(120).build()
                     )
             );
         };

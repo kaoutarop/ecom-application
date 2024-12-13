@@ -21,7 +21,7 @@ public class GatewayApplication {
     public RouteLocator routes(RouteLocatorBuilder builder){
        return builder.routes()
 			   .route(r->r.path("/customers/**").uri("lb://CUSTOMER-SERVICE"))
-			   .route(r->r.path("/prouducts/**").uri("lb://INVENTORY-SERVICE"))
+			   .route(r->r.path("/products/**").uri("lb://INVETORY-SERVICE"))
 			   .build();
 	}
 	@Bean
